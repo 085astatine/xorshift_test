@@ -23,7 +23,8 @@ include_directories(
 # unittest
 add_executable(
         unittest
-        test/main.cpp)
+        test/main.cpp
+        test/bits.cpp)
 target_link_libraries(
         unittest
         ${GTEST_LDFLAGS})
